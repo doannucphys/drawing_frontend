@@ -1,22 +1,22 @@
 /// <reference types="vite/client" />
 
-interface User{
-  id: string
-  username: string
+interface User {
+  id: string;
+  username: string;
 }
 
 interface SocketPayload {
-  username: string
-  classId: string
+  username: string;
+  classId: string;
 }
 
 interface Point {
-  x: number, 
-  y: number
+  x: number;
+  y: number;
 }
 
-interface DrawingClass { 
-  id: string,
-  name: string,
-  userList: User[]
+interface DrawingClass {
+  id: string;
+  name: string;
+  userList: User[];
 }
